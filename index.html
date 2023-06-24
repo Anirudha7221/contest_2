@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <header id="head">
+    <nav class="nav-bar">
+        <a href="#" class="Library" id="name">Library System</a>
+        <a href="#books" class="Library">Books</a>
+        <a href="#register" class="Library">Register</a>
+        <a href="#" class="Library">Contact US</a>
+        <a href="#" class="Library">Logout</a>
+    </nav>
+   </header>
+   <main id="main">
+        <section id="books">
+            <div class="section">
+                <h1>Books</h1>
+               <div id="tbl">
+                    <table border="2">
+                        <thead>
+                            <th>Book ID</th>
+                            <th>Tittle</th>
+                            <th>Author</th>
+                            <th>Genre</th>
+                            <th>Availiability</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <a href="#">Book Tittle</a>
+                                    <p>Publication date</p>
+                                    <p>Page Count</p>
+                                    <p>ISBN:</p>
+                                </td>
+                                <td>Author Name</td>
+                                <td>Genre</td>
+                                <td>Avialiable</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <a href="#">Book Tittle</a>
+                                    <p>Publication date</p>
+                                    <p>Page Count</p>
+                                    <p>ISBN:</p>
+                                </td>
+                                <td>Author Name</td>
+                                <td>Genre</td>
+                                <td>Avialiable</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <a href="#">Book Tittle</a>
+                                    <p>Publication date</p>
+                                    <p>Page Count</p>
+                                    <p>ISBN:</p>
+                                </td>
+                                <td>Author Name</td>
+                                <td>Genre</td>
+                                <td>Avialiable</td>
+                            </tr>
+                        </tbody>
+                    </table>
+               </div>
+            </div>
+        </section>
+        <section id="register">
+            <div class="section">
+                <h1>Register</h1>
+                <form method="get">
+                    <label for="name">First Name:</label><br>
+                    <input type="text" name="name" id="f-name" required><br>
+                    <label for="name">Last Name:</label><br>
+                    <input type="text" name="name" id="l-name" required><br>
+                    <label for="dob">Date Of Birth:</label><br>
+                    <input type="date" name="dob" id="dob" required><br>
+                    <label for="age">Age:</label><br>
+                    <input type="number" name="age" id="age" min="5" max="100"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password" required><br>
+                    <label for="pass">Confirm Password:</label><br>
+                    <input type="password" name="pass" id="confirm-pass" required><br>
+                    <button type="submit" class="btn">Register</button>
+                </form>
+            </div>
+        </section>
+   </main>
+</body>
+</html>
